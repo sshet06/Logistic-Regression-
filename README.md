@@ -7,6 +7,7 @@ This program implements logistic regression to classify spam/ham data set.The da
 The probability of spam/ham is calculated as follows:
 
 ![probablity](https://user-images.githubusercontent.com/43190668/48684176-212bff80-eb76-11e8-820f-e7293093cd32.png)
+where P(Y=0) represents ham email.
 
 For simplicity we can set the bias term w0 and an extra variable that is always 1 for our dataset.
 
